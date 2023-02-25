@@ -6,8 +6,8 @@ one-full-stack Description
 
 
 MONGO_URL=mongodb://127.0.0.1:27017/blognews
-collection มีแค่
+ส่วนcollection มีแค่
   users และ blognews
   
  อันนี้เป็น ผลงานที่เอาไว้โชว์
- ช่วยให้กำลังใจและกด star ให้ผมด้วยนะครับ
+ ช่วยให้กำลังใจด้วยการกด star ให้ผมด้วยนะครับ
