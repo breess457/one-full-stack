@@ -1,0 +1,82 @@
+.nav-active{
+    color: aqua;
+    font-weight: bold;
+}
+
+/* preview image file */
+.wrapper{
+    position: relative;
+    width: 99%;
+    border-radius: 12px;
+    background: #fff;
+    border:2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  margin-bottom: 0;
+  }
+  .wrapper .active{
+    border: none;
+  }
+  .wrapper:hover{
+    border: 2px dashed #f50808;
+  }
+  .wrapper .s-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper .s-image img{
+    height: 100%;
+    width: 100%;
+  background-repeat: no-repeat;
+    object-fit: cover;
+  background-attachment: fixed;  
+    background-size: cover;
+  }
+  .wrapper .icons{
+    font-size: 70px;
+    color: #303232;
+  text-align: center;
+  }
+  .wrapper .text-m{
+    font-size: 16px;
+    font-weight: 500;
+    color: #585878;
+  font-family: 'Charmonman', cursive;
+  
+  }
+  .wrapper .btn-cancle{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #f50808;
+    display: none;
+  }
+  .wrapper.active:hover .btn-cancle{
+    display: block;
+  }
+  .wrapper.active .btn-cancle:hover{
+    color: #4b06eb;
+  }
+  .wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 12px;
+  text-align: center;
+    display: none;
+    background: linear-gradient(135deg,#19f5b3 0%,#07c0d8 100%);
+  }
+  .wrapper.active:hover .file-name{
+    display: block;
+  }
+/* Rigister style */
