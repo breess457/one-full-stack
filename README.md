@@ -2,4 +2,12 @@
 one-full-stack Description
 
 เป็น website เขียนบทความ ตอนนี้ ยังไม่เสร็จครับ
-เขียนด้วย mern stack และ cssfremwork ใช้ tailwindcss และมีการใช้ fontawesome 5
+เขียนด้วย mern stack และ cssfremwork ใช้ tailwindcss และมีการใช้ fontawesome 5 ใช้ vite@ ในการสร้าง reactjs ใช้ concurrently ในการ runproject ทั้งfont-end และ back-end
+
+
+MONGO_URL=mongodb://127.0.0.1:27017/blognews
+collection มีแค่
+  users และ blognews
+  
+ อันนี้เป็น ผลงานที่เอาไว้โชว์
+ ช่วยให้กำลังใจและกด star ให้ผมด้วยนะครับ
