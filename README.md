@@ -1,12 +1,27 @@
-# one-full-stack
-one-full-stack Description
+# web blogopen
 
-เป็น website เขียนบทความ ตอนนี้ ยังไม่เสร็จครับ
-เขียนด้วย mern stack และ cssfremwork ใช้ tailwindcss และมีการใช้ fontawesome 5 ใช้ vite@ ในการสร้าง reactjs ใช้ concurrently ในการ runproject ทั้งfont-end และ back-end
+web blogopen คือแหล่งรวม  บทความต่างๆจากนักเขียนทุกมุมโลก ซึ่งเราก็สามารถเขียนบทความของตัวเองได้ ไม่ว่าจะเป็นเรื่องอะไร ก็หาอ่านได้ใน webblogopen
 
 
-MONGO_URL=mongodb://127.0.0.1:27017/blognews
-ส่วนcollection มีแค่
-  users และ blognews
-  
- อันนี้เป็น ผลงานที่เอาไว้โชว์
+# ทรัพยากรที่ใช้พัฒนา
+		1) javascript
+		2) nodejs version 18.11.0
+		3) npm varsion 8.19.2
+		4) browser -> firefox
+		5) react hook vaersion 18.0.27
+		6) expressjs version ^4.18.2
+		7) mongodb version 4.0.28
+		8) ใช้ vite ในการ create react hook
+		9)ใช้ concurrently version 7.5.0 ในการ run client และ server
+
+## ขั้นตอนในการติดตั้ง
+
+> base
+
+	git clone https://github.com/breess457/one-full-stack.git
+	cd one-full-stack/
+	install dependencies โดยใช้ npm install
+
+## วิธีการใช้งาน
+
+		npm run dev
